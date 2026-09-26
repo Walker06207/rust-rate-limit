@@ -1,0 +1,17 @@
+{
+  "name": "rate-limit-token-bucket",
+  "version": "0.1.0",
+  "description": "Tracks a capacity of tokens that refills at a steady interval, returning whether a request can take a token and how long until the next token is available.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "license": "BSD-3-Clause",
+  "dependencies": {}
+}
